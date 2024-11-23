@@ -10,7 +10,7 @@ import { UserData } from "../../assets/Data"
 export default function Users({ activeMenu }) {
   console.log(UserData);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
+  const itemsPerPage = 8;
 
   const handlePageClick = (pageNumber) => {
     if (pageNumber < 1 || pageNumber > totalPages) return;
