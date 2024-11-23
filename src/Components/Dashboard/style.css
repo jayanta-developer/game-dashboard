@@ -11,6 +11,7 @@
   padding: 20px;
   transition: width 0.3s ease;
   position: relative;
+  border-radius: 0 10px 10px 0;
 }
 
 .sidebar.collapsed {

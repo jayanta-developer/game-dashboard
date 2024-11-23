@@ -40,7 +40,6 @@ export default function Dashboard() {
           <img src={muneIcon} className='haumIcon' alt="" onClick={() => setIsCollapsed(!isCollapsed)} />
         </div>
         <Users activeMenu={activeMenu} />
-
       </main>
     </div>
   )
